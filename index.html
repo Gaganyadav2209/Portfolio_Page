@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Your Name</title>
+
+  <!-- AOS -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+  <!-- FAVICON -->
+  <link class="favicon" rel="icon" type="image/img" sizes="32x32" href="images/favicon-32x32.png">
+
+  <!-- Google material icons -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+
+   <!-- CSS -->
+  <link rel="stylesheet" href="style.css" />
+
+   <!-- FONT AWESOME -->
+  <script src="https://kit.fontawesome.com/a08c1c3b53.js" crossorigin="anonymous"></script>
+
+   <!-- TYPE JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"
+    integrity="sha512-3J8teBiHrSyaaRBajZyIEtpDsXdPq1gsznKWIVb5CnorQuFhjWGhWe54z8YNnHHr7MZuExb9m5kvf964HiT1Sw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+   <!-- jQUERY -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+   <!-- SWEET ALERT -->
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+   <!-- EMAIL JS -->
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+  <script type="text/javascript">
+    (function () {
+      emailjs.init("{{YOUR USER KEY}}");
+    })();
+  </script>
+
+</head>
+
+<body>
+    <nav class="navbar">
+      <div class="progress-container">
+        <div class="progress-bar" id="myBar"></div>
+      </div> 
+      <div class="max-width">
+        <div class="logo">
+          <a href="#">Gagan<span> Yadav</span></a>
+        </div>
+        <ul class="menu">
+          <li><a href="#home" class="menu-btn">Home</a></li>
+          <li><a href="#about" class="menu-btn">About</a></li>
+          <li><a href="#skills" class="menu-btn">Skills</a></li>
+          <li><a href="#services" class="menu-btn">Projects</a></li>
+          <li><a href="#skills" class="menu-btn">Work Experience</a></li>
+          <li><a href="#contact" class="menu-btn">Contact</a></li>
+        </ul>
+        <div class="menu-btn">
+          <i class="material-icons">menu</i>
+        </div>
+      </div>
+    </nav>
+  <!-- Scroll to top button -->
+    <button id="btnScrollToTop">
+      <i class="material-icons">arrow_upward</i>
+    </button>
+    
+  <!-- home section start-->
+  <section class="home" id="home">
+    <div class="max-width">
+      <div class="home-content">
+        <div class="text-1" data-aos="fade-up">Hello, my name is</div>
+        <div class="text-2">Gagan Yadav</div>
+        <div class="text-3">And I'm Passionate about <span class="typing"></span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- about section -->
+  <section class="about" id="about">
+    <div class="max-width">
+      <h2 class="title" data-aos="fade-down" >About Me</h2>
+      <div class="about-content">
+        <div class="column left" data-aos="fade-right" >
+          <img src="/images/portfolio_pic.jpeg" alt="" />
+        </div>
+        <div class="column right" data-aos="fade-up">
+          <div class="text">
+            I'm Gagan and I'm an <span class="typing-2"></span>
+          </div>
+          <p class="paragraph">
+            I am a data science enthusiast who is always passionate about data-driven decision-making. I have a strong foundation in statistical concepts and a deep understanding of various machine learning and deep learning algorithms. I am Proficient in Python, SQL and various libraries and frameworks including TensorFlow, Keras, scikit-learn, pandas, numpy etc, I also have experience in data visualization with Matplotlib, Seaborn. Currently seeking opportunities to kickstart my career in data science, where I can leverage my skills and passion to drive impactful projects and contribute to organizational success. Open to internships, entry-level positions, and exciting challenges that allow me to grow and learn.
+          </p>
+          <a href="https://drive.google.com/file/d/1GDlTrXkqjFeFnv2QX8yzq0N_mHQDdr0h/view?usp=share_link">Download
+            Resume</a>
+        </div>
+      </div>
+    </div>
+  </section>
+    <!-- skills section services -->
+    <section class="skills" id="skills">
+      <div class="max-width" data-aos="fade-down">
+        <h2 class="title" data-aos="fade-up">My Skills</h2>
+        <div class="skills-content">
+          <div class="column left">
+            <div class="text">
+              My Technical <span style="color:#902bf5;">skills</span> & <span style="color:#902bf5">experiences.</span> 
+            </div>
+            <p class="paragraph-2">
+             Being passionate about the latest technologies in the field of Data Science and Machine Learning,
+             I always tend towards learning these technologies to adapt myself in this fast-paced growing era. 
+
+            </p>
+            <a href="#about">Read More</a>
+          </div>
+          <div class="column right skill-box">
+            <div class="icons">
+              <img src="/images/icons8-python-2.svg" alt="python" id="css-icon" data-aos="flip-left">
+              <img src="/images/icons8-mysql-logo.svg" alt="sql" id="js-icon" data-aos="flip-left">
+              <img src="/images/scikit-learn.svg" alt="scikitlearn" id="react-icon" data-aos="flip-left",width="96",height="96">
+              <img src="/images/TensorFlow.svg" alt="tensorflow" id="flutter-icon" data-aos="flip-left" width="96" height="96">
+            </div>
+            <div class="icons">
+              <img src="/images/Jupyter.svg" width="96" height="96" alt="Jupyter", id="html-icon" data-aos="flip-left">
+              <img src="/images/Flask.svg" width="96" height="96" alt="flask" id="nodejs-icon" data-aos="flip-left">
+              <img src="/images/Matplotlib.svg" width="96" height="96" alt="matplotlib" id="vscode-icon" data-aos="flip-left">
+              <img src="/images/Pandas.svg"  width="96" height="96" alt="Pandas" id="cpp-icon" data-aos="flip-left">
+        </div>
+    </section>
+
+  <!-- Services Section -->
+  <section class="services" id="services">
+    <div class="max-width">
+      <h2 class="title" data-aos="fade-down">Projects</h2>
+      <div class="serv-content">
+        <div class="card" data-aos="flip-left">
+          <div class="box">
+            <!-- <i class="fas fa-laptop-code"></i> -->
+            <i class="fa-regular fa-credit-card"></i>
+            <!-- <img src="/images/icons8-fraud-100.png" width="96" height="96" alt=""> -->
+            <div class="text">Credit Card Fraud Detection</div>
+            <p>
+              <ul class="summaryproj">
+               <li>Created a Credit card fraud detection model using PCA applied open-sourced dataset by ULB.</li> 
+              <li> Performed Data Visualization to check outliers and remove them using Tukey’s IQR method .</li>
+              <li> Resampling our imbalanced dataset using random oversampling and used Random Forest algorithm to train ourmodel.</li>
+              <li> Used SMOTE, Tomek links to resample the dataset and trained model with Random Forest.</li>
+              <li> Found out the best hyperparamters using GridSearchCV for each of the resampling techniques.</li>
+             <li> Used recall score as metrics for evaluating our model performance for each resampling technique.</li>
+             
+             </ul>
+            </p>
+          </div>
+        </div>
+
+        <div class="card" data-aos="flip-left">
+          <div class="box">
+            <i class="fa-regular fa-file-pdf"></i>
+            <div class="text">Multi-PDF Chat</div>
+            <p>
+              <ul class="summaryproj">
+                <li>Developed an application that allows us to chat with multiple PDF documents at the same time.</li> 
+               <li>Extracted Contents of multiple PDF documents and divided them into smaller text chunks for easy processing.</li>
+               <li>Used Large Language Model to generate embeddings of the text chunks and stored them in vector database.</li>
+               <li>Used Faiss vector database for similarity search of the vectors which are more semantically similar .</li>
+               <li>Passed the text to language model to generate the response for the user.</li>
+              <li>Future scopes of the project will be to extend the input to image and audio files and process user query upon it.</li>
+              
+              </ul>
+          </div>
+        </div>
+
+        <div class="card" data-aos="flip-left">
+          <div class="box">
+            <!-- <i class="fas fa-mobile-alt"></i> -->
+            <img src="/images/social-media.png" width="96" height="96" alt="">
+            <div class="text">Movie Recommend-ation System</div>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae necessitatibus error eos suscipit culpa, impedit cum corporis dignissimos porro quae deleniti. Mollitia blanditiis, doloremque eius voluptas nam labore eligendi maiores in sed pariatur odit provident qui ad est similique iste. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint assumenda voluptatibus eligendi excepturi blanditiis molestias minima labore officiis fugit aliquam.
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio dolores quos atque reprehenderit qui esse, autem ab sequi nihil facilis?
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- Contact Section -->
+  <section class="contact" id="contact">
+    <div class="max-width">
+      <h2 class="title" data-aos="fade-down">Contact Me</h2>
+      <div class="contact-content">
+        <div class="column left" data-aos="flip-left">
+          <div class="text">Let's Get in Touch</div>
+          <p class="paragraph-3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium autem voluptas fugit voluptatibus deleniti quia culpa commodi, ipsum nulla modi.
+          </p>
+          <div class="icons">
+            <div class="row">
+              <i class="fas fa-user"></i>
+              <div class="info">
+                <div class="head">Name</div>
+                <div class="sub-title">{{YOUR NAME}}</div>
+              </div>
+            </div>
+            <div class="row">
+              <i class="fas fa-map-marker-alt"></i>
+              <div class="info">
+                <div class="head">Address</div>
+                <div class="sub-title">{{YOUR ADDRESS}}</div>
+              </div>
+            </div>
+            <div class="row">
+              <i class="fas fa-envelope"></i>
+              <div class="info">
+                <div class="head">Email</div>
+                <div class="sub-title">{{YOUR EMAIL}}</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="column right" data-aos="flip-right">
+          <div class="text">
+            Message Me
+          </div>
+          <form action="#Contact">
+            <div class="fields">
+              <div class="field name">
+                <input type="text" id="fromName" placeholder="Name" required autocomplete="off">
+              </div>
+              <div class="field email">
+                <input type="email" id="emailSender" placeholder="Email" required autocomplete="off">
+              </div>
+            </div>
+            <div class="field">
+              <input type="text" id="subjectSender" placeholder="Subject" required autocomplete="off">
+            </div>
+            <div class="field textarea">
+              <textarea cols="30" rows="10" id="message" placeholder="Message" required autocomplete="off"></textarea>
+            </div>
+            <div class="button">
+              <button onclick='sendMail()' type="submit">Send Message</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- footer section start -->
+  <footer>
+    <div class="text-center">
+      <span>
+        Created By <a href="#">{{YOUR NAME}}</a> | <span class="far fa-copyright"> </span> <script>document.write(new Date().getFullYear())</script> All rights reserved.
+        <div>
+          <a href="{{YOUR LINKEDIN}}"><i class="fab fa-linkedin"></i></a>
+          <a href="{{YOUR GITHUB}}"><i class="fab fa-github"></i></a>
+          <a href="{{YOUR YOUTUBE}}"><i class="fab fa-youtube"></i></a>
+        </div>
+      </span>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+  <script>
+    // When the user scrolls the page, execute myFunction 
+    window.onscroll = function() {myFunction()};
+    
+    function myFunction() {
+      var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+      var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+      var scrolled = (winScroll / height) * 100;
+      document.getElementById("myBar").style.width = scrolled + "%";
+    }
+    </script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>AOS.init({easing : 'ease-in',delay: 100,duration: 300,offset:100});window.addEventListener('load', AOS.refresh);</script>
+</body>
+
+</html>
